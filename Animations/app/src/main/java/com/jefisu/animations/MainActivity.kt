@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
             Box(
                 modifier = Modifier
                     .size(size)
-                    .background(color),
+                    .background(color   ),
                 contentAlignment = Alignment.Center
             ) {
                 Button(onClick = {
